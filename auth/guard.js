@@ -1,13 +1,7 @@
-// ── AUTH GUARD ──
-// Ce script protège les pages du dashboard.
-// Si l'utilisateur n'est pas connecté → redirige vers la page de connexion.
-
+// AUTH GUARD — redirige si pas connecté
 (async () => {
-  // Attendre que Supabase soit chargé
-  if (typeof supabase === 'undefined') return;
-
-  const { data: { session } } = await supabase.auth.getSession();
-
+  if (typeof sb === 'undefined') return;
+  const { data: { session } } = await sb.auth.getSession();
   if (!session) {
     window.location.href = '../auth/connexion.html';
   }

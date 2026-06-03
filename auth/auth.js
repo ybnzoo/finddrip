@@ -73,7 +73,7 @@ if (signupForm) {
     btn.style.opacity = '0.7';
     btn.disabled = true;
 
-    const { data, error } = await supabase.auth.signUp({ email, password });
+    const { data, error } = await sb.auth.signUp({ email, password });
 
     if (error) {
       console.error('Signup error:', error);
@@ -116,7 +116,7 @@ if (loginForm) {
     btn.style.opacity = '0.7';
     btn.disabled = true;
 
-    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+    const { data, error } = await sb.auth.signInWithPassword({ email, password });
 
     if (error) {
       showError(error.message === 'Invalid login credentials' ? 'Email ou mot de passe incorrect.' : error.message);
@@ -140,7 +140,7 @@ if (loginForm) {
 // ── GOOGLE LOGIN ──
 document.querySelectorAll('.auth-social-btn:not(.auth-discord-btn)').forEach(btn => {
   btn.addEventListener('click', async () => {
-    await supabase.auth.signInWithOAuth({
+    await sb.auth.signInWithOAuth({
       provider: 'google',
       options: { redirectTo: window.location.origin + '/dashboard/accueil.html' }
     });
@@ -150,7 +150,7 @@ document.querySelectorAll('.auth-social-btn:not(.auth-discord-btn)').forEach(btn
 // ── DISCORD LOGIN ──
 document.querySelectorAll('.auth-discord-btn').forEach(btn => {
   btn.addEventListener('click', async () => {
-    await supabase.auth.signInWithOAuth({
+    await sb.auth.signInWithOAuth({
       provider: 'discord',
       options: { redirectTo: window.location.origin + '/dashboard/accueil.html' }
     });
@@ -159,7 +159,7 @@ document.querySelectorAll('.auth-discord-btn').forEach(btn => {
 
 // ── SI DÉJÀ CONNECTÉ → REDIRECT ──
 (async () => {
-  const { data: { session } } = await supabase.auth.getSession();
+  const { data: { session } } = await sb.auth.getSession();
   if (session) {
     window.location.href = '../dashboard/accueil.html';
   }
