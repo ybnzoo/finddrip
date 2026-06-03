@@ -58,126 +58,41 @@
     <div class="dash-content">
 
       <!-- FILTRES CATÉGORIES -->
-      <div class="categories-scroll">
-        <button class="cat-pill active">Tout</button>
-        <button class="cat-pill">Vestes</button>
-        <button class="cat-pill">Hoodies</button>
-        <button class="cat-pill">Pantalons</button>
-        <button class="cat-pill">Sneakers</button>
-        <button class="cat-pill">Accessoires</button>
-        <button class="cat-pill">T-shirts</button>
+      <div class="categories-scroll" id="tendancesCategoryFilter">
+        <button class="cat-pill active" data-category="all">Tout</button>
+        <button class="cat-pill" data-category="jackets">Vestes</button>
+        <button class="cat-pill" data-category="hoodies">Hoodies</button>
+        <button class="cat-pill" data-category="pants">Pantalons</button>
+        <button class="cat-pill" data-category="shoes">Sneakers</button>
+        <button class="cat-pill" data-category="accessories">Accessoires</button>
+        <button class="cat-pill" data-category="shirts">T-shirts</button>
       </div>
 
       <!-- TOP TENDANCES -->
       <div class="dash-section">
         <div class="dash-section-header">
           <h2 class="dash-section-title">Top tendances cette semaine</h2>
-          <span style="font-size:12px;color:var(--text-muted);font-weight:500">Mis à jour aujourd'hui</span>
+          <span style="font-size:12px;color:var(--text-muted);font-weight:500">1 623 références · spreadsheet</span>
         </div>
-        <div class="trending-cards">
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="rank-badge rank-1">TOP 1</div>
-              <div class="product-img product-img-1"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">The North Face Nuptse 1996</span><span class="product-price">€ 420</span></div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="rank-badge rank-2">TOP 2</div>
-              <div class="product-img product-img-2"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Supreme Box Logo Hoodie</span><span class="product-price">€ 280</span></div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="rank-badge rank-3">TOP 3</div>
-              <div class="product-img product-img-3"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Corteiz Cargo Pants</span><span class="product-price">€ 195</span></div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 4</div>
-              <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80')"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Palace Tri-Ferg Hoodie</span><span class="product-price">€ 310</span></div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 5</div>
-              <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80')"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Nike ACG Fleece Jacket</span><span class="product-price">€ 210</span></div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 6</div>
-              <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&q=80')"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Carhartt WIP Detroit Jacket</span><span class="product-price">€ 310</span></div>
-          </div>
-
-        </div>
+        <div class="trending-cards" data-catalog data-count="6" data-rank></div>
       </div>
 
       <!-- NOUVEAUTÉS -->
       <div class="dash-section">
         <div class="dash-section-header">
-          <h2 class="dash-section-title">Nouveautés</h2>
-          <span style="font-size:12px;color:var(--text-muted);font-weight:500">Ajoutés cette semaine</span>
+          <h2 class="dash-section-title">Derniers ajouts</h2>
+          <span style="font-size:12px;color:var(--text-muted);font-weight:500">Fin du catalogue</span>
         </div>
-        <div class="trending-cards">
+        <div class="trending-cards" data-catalog data-count="8" data-offset="-8" data-new-badge-dash></div>
+      </div>
 
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="new-badge-dash">NEW</div>
-              <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&q=80')"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Balenciaga Track Runner</span><span class="product-price">€ 480</span></div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="new-badge-dash">NEW</div>
-              <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400&q=80')"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Nike x Sacai LDWaffle</span><span class="product-price">€ 395</span></div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="new-badge-dash">NEW</div>
-              <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80')"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Moncler Maya 70 Jacket</span><span class="product-price">€ 720</span></div>
-          </div>
-
-          <div class="product-card">
-            <div class="product-img-wrap">
-              <div class="new-badge-dash">NEW</div>
-              <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&q=80')"></div>
-              <button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-            </div>
-            <div class="product-info"><span class="product-name">Stüssy 8 Ball Fleece</span><span class="product-price">€ 220</span></div>
-          </div>
-
+      <!-- CATALOGUE COMPLET -->
+      <div class="dash-section">
+        <div class="dash-section-header">
+          <h2 class="dash-section-title">Catalogue</h2>
+          <span id="tendancesCount" style="font-size:12px;color:var(--text-muted);font-weight:500"></span>
         </div>
+        <div class="search-results-grid" id="tendancesCatalog"></div>
       </div>
 
       <!-- MARQUES TENDANCES -->
@@ -203,6 +118,9 @@
     <a href="profil.html" class="nav-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Profil</span></a>
   </nav>
 
+  <script src="../products.js"></script>
+  <script src="../products-ui.js"></script>
+  <script src="../catalog.js"></script>
   <script src="dashboard.js"></script>
 </body>
 </html>

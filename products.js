@@ -50,7 +50,7 @@ const PRODUCTS = [
   },
   {
     "name": "Balenciaga Multilogo Strikeboots",
-    "price": "€ 133720.79",
+    "price": "€ —",
     "category": "SHOES, BOOTS, SLIDES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722340261",
     "platform": "Weidian"
@@ -1668,2058 +1668,2058 @@ const PRODUCTS = [
   {
     "name": "BEST BATCH Balenciaga Lost Tapes",
     "price": "€ 67.67",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722354833",
     "platform": "Weidian"
   },
   {
     "name": "Chrome Hearts Mesh Pants",
     "price": "€ 14.04",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722307473",
     "platform": "Weidian"
   },
   {
     "name": "Needless Trackpant (30+ styles)",
     "price": "€ 21.26",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722360381",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 30 Shorts",
     "price": "€ 42.66",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722289273",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Shorts)",
     "price": "€ 33.56",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725304302",
     "platform": "Weidian"
   },
   {
     "name": "IG Brand Sweats",
     "price": "€ 16.72",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722123591",
     "platform": "Weidian"
   },
   {
     "name": "IG Brand Sweats",
     "price": "€ 26.74",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722313069",
     "platform": "Weidian"
   },
   {
     "name": "White Rick Owens Bela Cargos",
     "price": "€ 36.10",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722411741",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Skinny Waxed Jeans",
     "price": "€ 78.49",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725403942",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Classic Shorts",
     "price": "€ 23.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722360887",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Green Shorts",
     "price": "€ 23.80",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725449618",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Pocket Cargos",
     "price": "€ 25.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722435737",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Orange Belas",
     "price": "€ 48.68",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725384416",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens White Bolans",
     "price": "€ 60.71",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722321437",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Dark Red Belas",
     "price": "€ 52.42",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725293444",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Leopard Shorts",
     "price": "€ 21.26",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722296587",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Jeans 1",
     "price": "€ 30.62",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725320950",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Jeans 1",
     "price": "€ 37.31",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722257573",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Jeans 1",
     "price": "€ 37.31",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725296422",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Jeans 1",
     "price": "€ 37.31",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725346054",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Sport Pants",
     "price": "€ 23.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722265185",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Mud Wash Sweats",
     "price": "€ 25.27",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722225483",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Basic Sweats",
     "price": "€ 23.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722375921",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London LDN Sweats",
     "price": "€ 25.27",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722269179",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Distressed Sweats (grey)",
     "price": "€ 25.27",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722302653",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Distressed Sweats (black)",
     "price": "€ 25.27",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725386466",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Basic Sweats (Grey)",
     "price": "€ 23.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722396129",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Camo Sweats",
     "price": "€ 26.61",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725297482",
     "platform": "Weidian"
   },
   {
     "name": "No E Mosen Washed Jeans",
     "price": "€ 56.97",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722362945",
     "platform": "Weidian"
   },
   {
     "name": "No E Mosen Camo Split Jeans",
-    "price": "€ 0.00",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "price": "€ 0",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722392371",
     "platform": "Weidian"
   },
   {
     "name": "No E Mosen Baggy Sweats",
     "price": "€ 51.75",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725386356",
     "platform": "Weidian"
   },
   {
     "name": "Chai Music Score Sweatpants",
     "price": "€ 42.66",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722384277",
     "platform": "Weidian"
   },
   {
     "name": "Chai Psychokiller Sweatpans",
     "price": "€ 46.67",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722317011",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Double Knee Jeans",
     "price": "€ 53.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722330271",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Distressed Painted Jeans",
     "price": "€ 87.32",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722279421",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Double Waisted Trackpants",
     "price": "€ 71.54",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722367619",
     "platform": "Weidian"
   },
   {
     "name": "Purple Anonymoys Club Sweats",
     "price": "€ 46.53",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725167276",
     "platform": "Weidian"
   },
   {
     "name": "Black Anonymoys Club Sweats",
     "price": "€ 51.61",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722445829",
     "platform": "Weidian"
   },
   {
     "name": "Playboicarti Type Jeans",
     "price": "€ 38.51",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725314954",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Double Knee Pants",
     "price": "€ 57.23",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725293382",
     "platform": "Weidian"
   },
   {
     "name": "ERL Cargos (2 styles)",
     "price": "€ 46.80",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722419731",
     "platform": "Weidian"
   },
   {
     "name": "ERL Cargos (Mint)",
     "price": "€ 30.49",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722283123",
     "platform": "Weidian"
   },
   {
     "name": "Project GR Camo Shorts",
     "price": "€ 46.80",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722362963",
     "platform": "Weidian"
   },
   {
     "name": "Project GR Baggy Denim",
     "price": "€ 30.62",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725363782",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Graffiti Baggy Denim",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722386093",
     "platform": "Weidian"
   },
   {
     "name": "Mowalola Sweatpants",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725307148",
     "platform": "Weidian"
   },
   {
     "name": "Mowalola Sweats 2",
     "price": "€ 47.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722063319",
     "platform": "Weidian"
   },
   {
     "name": "Mowalola Sweats (Black and Blue)",
     "price": "€ 33.29",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722318501",
     "platform": "Weidian"
   },
   {
     "name": "Mowalola Mesh Shorts",
     "price": "€ 18.99",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722421951",
     "platform": "Weidian"
   },
   {
     "name": "Annabolina x Anonymous Black Club Shorts (3 styles)",
     "price": "€ 13.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722356499",
     "platform": "Weidian"
   },
   {
     "name": "Annabolina x Anonymous White Club Shorts (3 styles)",
     "price": "€ 13.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722396059",
     "platform": "Weidian"
   },
   {
     "name": "Yori Sports Striped leans",
     "price": "€ 23.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364623",
     "platform": "Weidian"
   },
   {
     "name": "Project GR Sag Sweats",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725351832",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Destroyed Jeans",
     "price": "€ 111.12",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725336898",
     "platform": "Weidian"
   },
   {
     "name": "Project GR Double Knee Raw Denim",
     "price": "€ 38.51",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722379971",
     "platform": "Weidian"
   },
   {
     "name": "Project GR 3d Print Jeans",
     "price": "€ 28.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722362503",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Flared Denim",
     "price": "€ 37.18",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364559",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Grey Cargos",
     "price": "€ 104.57",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722351123",
     "platform": "Weidian"
   },
   {
     "name": "Raf Simons Spliced Track Pants",
     "price": "€ 61.38",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722249363",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Baggy Ass Silver Cargos",
     "price": "€ 91.20",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722291279",
     "platform": "Weidian"
   },
   {
     "name": "YSL Slim Fit Jeans",
     "price": "€ 25.81",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725125480",
     "platform": "Weidian"
   },
   {
     "name": "Mastermind Skull Print Denim",
     "price": "€ 69.40",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722392449",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Detroit Cut Denim",
     "price": "€ 65.26",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722250927",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Waxed Bela Shorts",
     "price": "€ 53.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722344597",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Baggy Washed Denim",
     "price": "€ 38.51",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722336015",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Black Grey Denim",
     "price": "€ 66.73",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725407684",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Black Waxed Denim",
     "price": "€ 86.78",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725347040",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Double Knee Jeans",
     "price": "€ 49.21",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722338739",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Skater Sweatpants",
     "price": "€ 34.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725304786",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Baggy 2025 Denim",
     "price": "€ 51.89",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722297537",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Triple Waisted Sweats",
     "price": "€ 76.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725317228",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Drawstring Denim",
     "price": "€ 57.90",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722382349",
     "platform": "Weidian"
   },
   {
     "name": "True Religion Jeans Link 1",
     "price": "€ 29.15",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722410153",
     "platform": "Weidian"
   },
   {
     "name": "True Religion Jeans Link 2",
     "price": "€ 22.47",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725318908",
     "platform": "Weidian"
   },
   {
     "name": "Le Grande Bleu Cargo Pants",
     "price": "€ 34.10",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722097491",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Bolan Banana Cut",
     "price": "€ 70.74",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725247246",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Nylon Bolans",
     "price": "€ 47.87",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725318016",
     "platform": "Weidian"
   },
   {
     "name": "Margiela Washed Brown Denim",
     "price": "€ 84.11",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722349939",
     "platform": "Weidian"
   },
   {
     "name": "Margiela Flared Denim",
     "price": "€ 60.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722308299",
     "platform": "Weidian"
   },
   {
     "name": "Margiela Baggy Washed Denim",
     "price": "€ 59.77",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725320580",
     "platform": "Weidian"
   },
   {
     "name": "Yori Sports Sweatpants",
     "price": "€ 29.15",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725415880",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 3D Multi Belt Denim",
     "price": "€ 43.99",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722390197",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 3d Print Oil Denim",
     "price": "€ 31.82",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725351718",
     "platform": "Weidian"
   },
   {
     "name": "Project G/R Reversed Waxed Denim",
     "price": "€ 53.76",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722345223",
     "platform": "Weidian"
   },
   {
     "name": "Project G/R Ripped Denim",
     "price": "€ 34.23",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722313251",
     "platform": "Weidian"
   },
   {
     "name": "Issey Miyake Straight Strine Pants",
     "price": "€ 25.14",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725349624",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Tribal Jeans",
     "price": "€ 53.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722362675",
     "platform": "Weidian"
   },
   {
     "name": "Acne 3d Print Scribble Jeans",
     "price": "€ 43.86",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725366168",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 3D Print Jeans",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722123569",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Biker Denim (black)",
     "price": "€ 77.69",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722323111",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Biker Denim (grey)",
     "price": "€ 53.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725366424",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Mud Wash Leather Pocket Denim (grey)",
     "price": "€ 63.92",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722445763",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Mud Wash Leather Pocket Denim (blue)",
     "price": "€ 49.21",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722313277",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Camo Cargos",
     "price": "€ 104.17",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722329179",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Logo Denim",
     "price": "€ 104.97",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722400145",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Logo Raver Jeans",
     "price": "€ 93.47",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722123535",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Embroidered Jeans",
     "price": "€ 57.23",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722288581",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Loon Logo Sweats",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722245143",
     "platform": "Weidian"
   },
   {
     "name": "Undercover aw05 Smoke Denim",
     "price": "€ 52.02",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722254873",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Spiral Denim",
     "price": "€ 42.39",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722336787",
     "platform": "Weidian"
   },
   {
     "name": "Grailz Triple Sag Sweatpants",
     "price": "€ 26.34",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722342731",
     "platform": "Weidian"
   },
   {
     "name": "Undercover 06ss Bug Denim",
     "price": "€ 59.10",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725320768",
     "platform": "Weidian"
   },
   {
     "name": "Undercover White Yarns",
     "price": "€ 38.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722311229",
     "platform": "Weidian"
   },
   {
     "name": "Undercover Red Yarns",
     "price": "€ 38.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722311229",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 3d Print Bear Denim",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725314810",
     "platform": "Weidian"
   },
   {
     "name": "Undercover Silver Yarns",
     "price": "€ 52.82",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725283406",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Waxed Cargos",
     "price": "€ 57.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722273421",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Double Leg Cargos",
     "price": "€ 57.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722346187",
     "platform": "Weidian"
   },
   {
     "name": "LGB Blood Cargos",
     "price": "€ 54.56",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725346558",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Cargos",
     "price": "€ 57.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722261299",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Wax Cargo",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722276779",
     "platform": "Weidian"
   },
   {
     "name": "Maison Margiela Brown Washed Jeans",
     "price": "€ 68.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725215078",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Basic Bela Cargos",
     "price": "€ 41.19",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725356470",
     "platform": "Weidian"
   },
   {
     "name": "Undercover Printed Trousers",
     "price": "€ 54.82",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725306320",
     "platform": "Weidian"
   },
   {
     "name": "Dior Raw Denim",
     "price": "€ 45.73",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725298320",
     "platform": "Weidian"
   },
   {
     "name": "Balmain Zip Denim",
     "price": "€ 52.82",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725334652",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Gradient Bolans",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725302302",
     "platform": "Weidian"
   },
   {
     "name": "Hysteric Glamour Hagis",
     "price": "€ 58.71",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725125044",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Waxed Bolans",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722437857",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 2021M Mud Dyed",
     "price": "€ 56.56",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725358106",
     "platform": "Weidian"
   },
   {
     "name": "Nofaithstudios Raw Denim",
     "price": "€ 52.55",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725334908",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Mud Dyed Bolans",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722263095",
     "platform": "Weidian"
   },
   {
     "name": "Protocol Index Triple Laver Sweats",
     "price": "€ 32.49",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722271055",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Sweatpants",
     "price": "€ 67.93",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725245532",
     "platform": "Weidian"
   },
   {
     "name": "Dior Blue Washed Denim",
     "price": "€ 60.71",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725321324",
     "platform": "Weidian"
   },
   {
     "name": "No Faith Studios Sand Wash Denim",
     "price": "€ 50.95",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722376471",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Waxed Skinny Denim",
     "price": "€ 44.93",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725396250",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Black Bolans",
     "price": "€ 35.03",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364689",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Bolan Banana (Black)",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725251168",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 2021M Basic Colorways",
     "price": "€ 54.96",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725327258",
     "platform": "Weidian"
   },
   {
     "name": "ERD Wool Pants",
     "price": "€ 48.54",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722367691",
     "platform": "Weidian"
   },
   {
     "name": "Dior Mud Wash Waxed Denim",
     "price": "€ 63.25",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722338865",
     "platform": "Weidian"
   },
   {
     "name": "Undercover Distressed Patch Denim",
     "price": "€ 62.45",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722276955",
     "platform": "Weidian"
   },
   {
     "name": "Dior Hedi OG Waxed Lusters",
     "price": "€ 81.83",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722311409",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Flared Jeans",
     "price": "€ 40.39",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722363681",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Skiwear Sweatpants",
     "price": "€ 38.65",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722267095",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Waxed Shiny Jeans",
     "price": "€ 44.40",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364345",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Elephant Jeans",
     "price": "€ 62.58",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722348655",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Skater Jeans",
     "price": "€ 47.74",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725313118",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Skater Jeans (Blue)",
     "price": "€ 46.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722396161",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Flared Washed Denim",
     "price": "€ 42.52",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722338389",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Denim Shorts",
     "price": "€ 45.06",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722354561",
     "platform": "Weidian"
   },
   {
     "name": "20+ Acne Studios Jeans (Budget Friendly)",
     "price": "€ 26.48",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725313912",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Striped Shorts",
     "price": "€ 39.72",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722342721",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Mens/Womens Painted Denim",
     "price": "€ 44.13",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722368971",
     "platform": "Weidian"
   },
   {
     "name": "Amiri Jeans (20+ colorways)",
     "price": "€ 21.93",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725300864",
     "platform": "Weidian"
   },
   {
     "name": "Nofaithstudios Raver Denim",
     "price": "€ 76.08",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725390454",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 3d Printed Shorts",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722417761",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Oil Denim",
     "price": "€ 53.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364669",
     "platform": "Weidian"
   },
   {
     "name": "ERL Denim",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722386055",
     "platform": "Weidian"
   },
   {
     "name": "Diesel D-rise Denim",
     "price": "€ 43.06",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725396172",
     "platform": "Weidian"
   },
   {
     "name": "Budget Lost Tape Jeans (black)",
     "price": "€ 22.47",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725338164",
     "platform": "Weidian"
   },
   {
     "name": "Budget Lost Tape Jeans (Grey)",
     "price": "€ 22.47",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725443718",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Camo Shorts",
     "price": "€ 68.06",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725372090",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Baggy Flares",
     "price": "€ 37.18",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364559",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Logo Cargo Pants",
     "price": "€ 78.63",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722301333",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Baggy Distressed Denim",
     "price": "€ 57.23",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725386000",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Graffiti Denim",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722386093",
     "platform": "Weidian"
   },
   {
     "name": "No E Mosen USA Print Denim",
     "price": "€ 58.71",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364719",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Skiwear Denim",
     "price": "€ 38.65",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722356709",
     "platform": "Weidian"
   },
   {
     "name": "Grailz Sweatpants",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725351832",
     "platform": "Weidian"
   },
   {
     "name": "Magliano Sweats",
     "price": "€ 35.83",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722298759",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Raw 2021m (Budget)",
     "price": "€ 28.08",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725330790",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Flared Jeans",
     "price": "€ 30.08",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725379646",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 3D printed brown jeans",
     "price": "€ 57.90",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725289500",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Candy Chain Pants",
     "price": "€ 37.31",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725415620",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Sweats 1",
     "price": "€ 29.82",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725247508",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Sweats 2",
     "price": "€ 29.82",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725247508",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Sweats 3",
     "price": "€ 29.82",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725247508",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Sweats 4",
     "price": "€ 29.82",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725247508",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Grey Flared Jeans",
     "price": "€ 38.78",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722279135",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Grey Baggy Jeans",
     "price": "€ 39.58",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722314613",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Washed Flared Jeans",
     "price": "€ 39.58",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725305030",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Embroidered Jeans",
     "price": "€ 50.95",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364593",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Paint Splatter Flared Jeans",
     "price": "€ 40.92",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722299391",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 3d Denim",
     "price": "€ 40.92",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722267283",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Sand Washed Jeans",
     "price": "€ 37.84",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722177151",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Sag Shorts Black",
     "price": "€ 33.43",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725311066",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Sag Shorts Grey",
     "price": "€ 33.43",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725311066",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Black Sag Sweats",
     "price": "€ 47.74",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725382008",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Boxer Shorts",
     "price": "€ 37.57",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725246948",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Unity Long Skirt",
     "price": "€ 32.63",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725299396",
     "platform": "Weidian"
   },
   {
     "name": "Chrome Hearts Shorts",
     "price": "€ 21.13",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722390181",
     "platform": "Weidian"
   },
   {
     "name": "Chrome Hearts Breathing Shorts",
     "price": "€ 16.58",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725358406",
     "platform": "Weidian"
   },
   {
     "name": "Chrome Hearts Shorts",
     "price": "€ 19.39",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725358564",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Ripped Sweats (black",
     "price": "€ 25.27",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725386466",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Ripped Sweats (grey)",
     "price": "€ 25.27",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722302653",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Dookie Line Sweats",
     "price": "€ 25.27",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722225483",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Washed Sweats",
     "price": "€ 26.61",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725282796",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Black Sweats",
     "price": "€ 23.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722375921",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Grey Sweats",
     "price": "€ 23.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722396129",
     "platform": "Weidian"
   },
   {
     "name": "Jaded London Leopard Pants",
     "price": "€ 22.60",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725215450",
     "platform": "Weidian"
   },
   {
     "name": "AMIRI Jeans 40 colorways",
     "price": "€ 23.94",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725351692",
     "platform": "Weidian"
   },
   {
     "name": "AMIRI Jeans 36 colorways",
     "price": "€ 40.11",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725279484",
     "platform": "Weidian"
   },
   {
     "name": "Gallery Dept Jeans 36 colorways",
     "price": "€ 11.77",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722277093",
     "platform": "Weidian"
   },
   {
     "name": "Gallery Dept Jeans 12 colorways",
     "price": "€ 37.31",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722405681",
     "platform": "Weidian"
   },
   {
     "name": "Gallery Dept Pants 24 colorways (Premium Quality)",
     "price": "€ 22.60",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722316953",
     "platform": "Weidian"
   },
   {
     "name": "PURPLE Jeans 31 colorways",
     "price": "€ 37.31",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725348502",
     "platform": "Weidian"
   },
   {
     "name": "Revenge Jeans 23 colorways",
     "price": "€ 13.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725231520",
     "platform": "Weidian"
   },
   {
     "name": "Chrome Hearts Jeans 31 colorways",
     "price": "€ 38.65",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722403809",
     "platform": "Weidian"
   },
   {
     "name": "Chrome Hearts Jeans 14 colorways",
     "price": "€ 9.23",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722390613",
     "platform": "Weidian"
   },
   {
     "name": "Evisu Jeans 17 colorways",
     "price": "€ 27.95",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725375708",
     "platform": "Weidian"
   },
   {
     "name": "Magliano Double Waist Sweats",
     "price": "€ 35.83",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722298759",
     "platform": "Weidian"
   },
   {
     "name": "Nofaithsdios Washed Denim",
     "price": "€ 49.34",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722251427",
     "platform": "Weidian"
   },
   {
     "name": "Nofaithstudios Dune Denim",
     "price": "€ 48.27",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725347082",
     "platform": "Weidian"
   },
   {
     "name": "Nofaithstudios Wavy Denim",
     "price": "€ 56.97",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725343110",
     "platform": "Weidian"
   },
   {
     "name": "Nofaithstudios Waxed Denim",
     "price": "€ 60.71",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725431706",
     "platform": "Weidian"
   },
   {
     "name": "Nofaithstudios Drewstring Denim",
-    "price": "€ 0.00",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "price": "€ 0",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725433656",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Ripped Distressed Denim",
     "price": "€ 79.56",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722439711",
     "platform": "Weidian"
   },
   {
     "name": "No Faith Studios Mud Wash Denim",
-    "price": "€ 0.00",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "price": "€ 0",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725447660",
     "platform": "Weidian"
   },
   {
     "name": "No Faith Studios Japanese Denim",
     "price": "€ 35.97",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722326963",
     "platform": "Weidian"
   },
   {
     "name": "No Faith Studios Distressed Blue Denim",
     "price": "€ 43.99",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725304592",
     "platform": "Weidian"
   },
   {
     "name": "No Faith Studios Raw Denim (Baggy)",
     "price": "€ 60.71",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725390378",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Cream Track Pants",
     "price": "€ 46.80",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722435729",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Baggy Drawstring Denim",
     "price": "€ 52.02",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722457641",
     "platform": "Weidian"
   },
   {
     "name": "Martine Rose Sweatpants",
     "price": "€ 26.61",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722189391",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Cut Up Denim (Black)",
     "price": "€ 66.73",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722324347",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Cut Up Denim (Blue)",
     "price": "€ 66.73",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722324347",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga School Sweats",
     "price": "€ 30.62",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722391865",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Loop Logo Pants",
     "price": "€ 39.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725260620",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga 5-stripe Pants",
-    "price": "€ 0.00",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "price": "€ 0",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725402034",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Pyjamas",
     "price": "€ 37.84",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725368728",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Baggy Sweatpants",
     "price": "€ 38.11",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722376777",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Sag Sweatpants",
-    "price": "€ 0.00",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "price": "€ 0",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725431784",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Porterville Cargos",
     "price": "€ 46.80",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725307354",
     "platform": "Weidian"
   },
   {
     "name": "Annabolina Multi Shorts (White)",
     "price": "€ 13.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722396059",
     "platform": "Weidian"
   },
   {
     "name": "Annabolina Multi Shorts (Black)",
     "price": "€ 13.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722356499",
     "platform": "Weidian"
   },
   {
     "name": "Yori Raw Denim Jeans",
     "price": "€ 46.80",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725360880",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Patchwork Jeans",
     "price": "€ 61.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722277291",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Poetry Denim",
     "price": "€ 52.02",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722384589",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Striped Jeans",
     "price": "€ 35.97",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722413723",
     "platform": "Weidian"
   },
   {
     "name": "Joshua Jamal Shorts",
     "price": "€ 34.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364995",
     "platform": "Weidian"
   },
   {
     "name": "Joshua Jamal Cargos",
     "price": "€ 34.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722364995",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Ripped Baggy Pants",
     "price": "€ 74.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725329168",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Flared Denim Cargo",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725338320",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Pull Up Denim",
     "price": "€ 43.99",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725315058",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga ss25 Flares",
     "price": "€ 57.23",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722337223",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Multipocket Cargo",
     "price": "€ 98.02",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725291276",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Camo Baggy Jeans",
     "price": "€ 74.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725449632",
     "platform": "Weidian"
   },
   {
     "name": "Joshua Jamal Digital Camo",
     "price": "€ 60.44",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725335234",
     "platform": "Weidian"
   },
   {
     "name": "Acne 2021M Paint Splatter Denim,",
     "price": "€ 34.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725354960",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Distressed Baggy Jeans",
     "price": "€ 82.37",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722382331",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Reversed Baggy Jeans",
     "price": "€ 74.35",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722400375",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Cargo Sweats",
     "price": "€ 41.32",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722447727",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Shield Sweats",
     "price": "€ 41.32",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725433710",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Skull Sweats",
     "price": "€ 41.32",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725411912",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga ss25 Cargo Pants",
     "price": "€ 72.88",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722314953",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga FW25 Flared Denim Cargo",
     "price": "€ 66.73",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722300909",
     "platform": "Weidian"
   },
   {
     "name": "Undercover 09ss Lightning Jeans",
     "price": "€ 63.25",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722423701",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Spiral Denim 2.0",
     "price": "€ 40.11",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725051300",
     "platform": "Weidian"
   },
   {
     "name": "Undercover 06ss Print Denim",
     "price": "€ 38.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725401798",
     "platform": "Weidian"
   },
   {
     "name": "Undercover 06ss Bug Denim (Black)",
     "price": "€ 50.54",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725287196",
     "platform": "Weidian"
   },
   {
     "name": "Undercover Blue Yarns",
     "price": "€ 38.24",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722311229",
     "platform": "Weidian"
   },
   {
     "name": "Undercover 05ss Ripped Denim",
     "price": "€ 62.98",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725374396",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Hipster Denim",
     "price": "€ 61.92",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722318531",
     "platform": "Weidian"
   },
   {
     "name": "Vetements Sweatpants",
     "price": "€ 61.78",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722350765",
     "platform": "Weidian"
   },
   {
     "name": "Mowalola Sweatpants",
     "price": "€ 23.67",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725113590",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios 2021M Paint Splatter",
     "price": "€ 56.29",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725314070",
     "platform": "Weidian"
   },
   {
     "name": "Dior Double Waist Denim",
     "price": "€ 54.56",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725278678",
     "platform": "Weidian"
   },
   {
     "name": "Dior Basic Slim Jeans",
     "price": "€ 45.73",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725368338",
     "platform": "Weidian"
   },
   {
     "name": "Dior Hedi Waxed Jeans",
     "price": "€ 81.30",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725167202",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Double Pocket Shorts",
     "price": "€ 34.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722379935",
     "platform": "Weidian"
   },
   {
     "name": "Dior Distressed Cross Denim",
     "price": "€ 62.04",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725271090",
     "platform": "Weidian"
   },
   {
     "name": "Our Legacy Washed Denim",
     "price": "€ 52.15",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725277106",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Gradient Bela Cargos",
     "price": "€ 47.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725316114",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Gradient Bolan Banana",
     "price": "€ 63.78",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725307172",
     "platform": "Weidian"
   },
   {
     "name": "Maison Margiela Flared Denim",
     "price": "€ 67.93",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725280636",
     "platform": "Weidian"
   },
   {
     "name": "Undercover Cargos",
     "price": "€ 48.41",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722255443",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Grey Bolans",
     "price": "€ 44.26",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722314673",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Basic Denim Edfu Cargos",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725344554",
     "platform": "Weidian"
   },
   {
     "name": "Prototype Shorts",
     "price": "€ 19.52",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722330653",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Sweatpants",
     "price": "€ 45.33",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725298636",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Patchwork Denim",
     "price": "€ 76.22",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725247586",
     "platform": "Weidian"
   },
   {
     "name": "Dior Rippled Jeans",
     "price": "€ 42.39",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722354527",
     "platform": "Weidian"
   },
   {
     "name": "No Faith Studios Washed Distressed Blue Jeans",
     "price": "€ 63.11",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722301451",
     "platform": "Weidian"
   },
   {
     "name": "Dior Double Waist Denim (Black)",
     "price": "€ 54.56",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725301480",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens Pink Patchwork Denim",
     "price": "€ 70.07",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725415942",
     "platform": "Weidian"
   },
   {
     "name": "Rick Owens White Shorts",
     "price": "€ 30.49",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7721981585",
     "platform": "Weidian"
   },
   {
     "name": "Dior Blue Clawmark Denim",
     "price": "€ 54.56",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725326910",
     "platform": "Weidian"
   },
   {
     "name": "ERD Washed Jeans",
     "price": "€ 38.65",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722338819",
     "platform": "Weidian"
   },
   {
     "name": "Kiko kostadinov Studded Pants",
     "price": "€ 58.97",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725246808",
     "platform": "Weidian"
   },
   {
     "name": "Dior Clawmark Denim",
     "price": "€ 69.40",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725362028",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Loop Logo Sweats",
     "price": "€ 40.39",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725283314",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga x Adidas Jeans (Budget)",
     "price": "€ 36.10",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722409933",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Jeans / Cargo Split Jeans",
     "price": "€ 44.40",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722300557",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Pajama Pants",
     "price": "€ 34.77",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722371959",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Cut Distressed Jeans (Black)",
     "price": "€ 38.78",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725407772",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Cut Distressed Jeans (Grey)",
     "price": "€ 36.91",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725352624",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Mens Baggy Jeans",
     "price": "€ 58.03",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725313094",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Jeans With A Belt",
     "price": "€ 49.61",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722367697",
     "platform": "Weidian"
   },
   {
     "name": "Balenciaga Skiwear Denim",
     "price": "€ 41.19",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725273562",
     "platform": "Weidian"
   },
   {
     "name": "ERL Striped Cargo Pants",
     "price": "€ 51.48",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722302783",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Candy 3d Shorts",
     "price": "€ 36.64",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7725368462",
     "platform": "Weidian"
   },
   {
     "name": "Acne Studios Mud Dyed Jeans",
     "price": "€ 45.06",
-    "category": "PANTS, JEANS, SHORTS, ETC",
+    "category": "PANTS, JEANS, SHORTS, ETC                                                                                                                                                                                                        ",
     "link": "https://weidian.com/item.html?itemID=7722280969",
     "platform": "Weidian"
   },
@@ -3872,7 +3872,7 @@ const PRODUCTS = [
   },
   {
     "name": "Number Nine White Skull Sweater",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7722411787",
     "platform": "Weidian"
@@ -4698,7 +4698,7 @@ const PRODUCTS = [
   },
   {
     "name": "Project G/R Red Gloves Hoodie",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725341074",
     "platform": "Weidian"
@@ -4719,21 +4719,21 @@ const PRODUCTS = [
   },
   {
     "name": "Project G/R Skull Gloves Hoodie",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725435668",
     "platform": "Weidian"
   },
   {
     "name": "Project G/R Year of Snake Hoodie",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725317270",
     "platform": "Weidian"
   },
   {
     "name": "Project G/R State Hoodie",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725339142",
     "platform": "Weidian"
@@ -4838,7 +4838,7 @@ const PRODUCTS = [
   },
   {
     "name": "Number Nine Black \"Comedy\" Hoodie",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725402132",
     "platform": "Weidian"
@@ -4866,21 +4866,21 @@ const PRODUCTS = [
   },
   {
     "name": "Number Nine Double Skull Sweatshirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7722411787",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Shield Sweatshirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725336950",
     "platform": "Weidian"
   },
   {
     "name": "Number Nine Double Skull Zip Up",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7722309497",
     "platform": "Weidian"
@@ -5580,7 +5580,7 @@ const PRODUCTS = [
   },
   {
     "name": "Hysteric Glamour Skullberry Hoodie",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7722343207",
     "platform": "Weidian"
@@ -5804,7 +5804,7 @@ const PRODUCTS = [
   },
   {
     "name": "Balenciaga Soccer Hoodie All Colours",
-    "price": "€ 46.00",
+    "price": "€ 46",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725366322",
     "platform": "Weidian"
@@ -6175,7 +6175,7 @@ const PRODUCTS = [
   },
   {
     "name": "Mowalola Bomber",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725386284",
     "platform": "Weidian"
@@ -6252,7 +6252,7 @@ const PRODUCTS = [
   },
   {
     "name": "Rough Simmons Penelope Hoodie",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725398232",
     "platform": "Weidian"
@@ -6266,7 +6266,7 @@ const PRODUCTS = [
   },
   {
     "name": "Mowalola Cropped Zip",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "HOODIES, ZIP-UPS, SWEATERS",
     "link": "https://weidian.com/item.html?itemID=7725372644",
     "platform": "Weidian"
@@ -6896,7 +6896,7 @@ const PRODUCTS = [
   },
   {
     "name": "Drain Gang Merch 4",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722350975",
     "platform": "Weidian"
@@ -6931,7 +6931,7 @@ const PRODUCTS = [
   },
   {
     "name": "Drain Gang Merch 9",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722368817",
     "platform": "Weidian"
@@ -6945,7 +6945,7 @@ const PRODUCTS = [
   },
   {
     "name": "Drain Gang Merch 11",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7725421838",
     "platform": "Weidian"
@@ -6994,7 +6994,7 @@ const PRODUCTS = [
   },
   {
     "name": "No E Mosen Sakyant Shirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722433653",
     "platform": "Weidian"
@@ -7022,7 +7022,7 @@ const PRODUCTS = [
   },
   {
     "name": "No E Mosen Cross Longsleeve",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722387899",
     "platform": "Weidian"
@@ -7057,7 +7057,7 @@ const PRODUCTS = [
   },
   {
     "name": "Chai dhl ass looking shirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7725345060",
     "platform": "Weidian"
@@ -7148,7 +7148,7 @@ const PRODUCTS = [
   },
   {
     "name": "Opium Jersey 2",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7725372572",
     "platform": "Weidian"
@@ -7505,7 +7505,7 @@ const PRODUCTS = [
   },
   {
     "name": "Number Nine \"Double Skull\" Shirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722275493",
     "platform": "Weidian"
@@ -7568,7 +7568,7 @@ const PRODUCTS = [
   },
   {
     "name": "Number Nine \"Pulse\" Shirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722390545",
     "platform": "Weidian"
@@ -8660,7 +8660,7 @@ const PRODUCTS = [
   },
   {
     "name": "Number Nine \"LOVE GUN\" Shirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722386317",
     "platform": "Weidian"
@@ -8702,7 +8702,7 @@ const PRODUCTS = [
   },
   {
     "name": "Number Nine \"Skeleton\" Shirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7725374552",
     "platform": "Weidian"
@@ -8737,7 +8737,7 @@ const PRODUCTS = [
   },
   {
     "name": "Hysteric Glamour Longsleeve",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722449601",
     "platform": "Weidian"
@@ -8779,7 +8779,7 @@ const PRODUCTS = [
   },
   {
     "name": "Vetements \"Bro\" Shirt",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7725423662",
     "platform": "Weidian"
@@ -8870,7 +8870,7 @@ const PRODUCTS = [
   },
   {
     "name": "Number Nine \"Power pop\" Short",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "SHIRTS, TEE'S, LONGSLEEVES, ETC",
     "link": "https://weidian.com/item.html?itemID=7722392509",
     "platform": "Weidian"
@@ -9073,7 +9073,7 @@ const PRODUCTS = [
   },
   {
     "name": "Thug Club Beanie",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "ACCESSORIES/BELTS",
     "link": "https://weidian.com/item.html?itemID=7722414177",
     "platform": "Weidian"
@@ -9262,7 +9262,7 @@ const PRODUCTS = [
   },
   {
     "name": "40+ Hellstar Caps",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "ACCESSORIES/BELTS",
     "link": "https://weidian.com/item.html?itemID=7722415965",
     "platform": "Weidian"
@@ -9367,7 +9367,7 @@ const PRODUCTS = [
   },
   {
     "name": "Mastermind Bag",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "ACCESSORIES/BELTS",
     "link": "https://weidian.com/item.html?itemID=7722379995",
     "platform": "Weidian"
@@ -9647,7 +9647,7 @@ const PRODUCTS = [
   },
   {
     "name": "Mowalola Socks",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "ACCESSORIES/BELTS",
     "link": "https://weidian.com/item.html?itemID=7722346941",
     "platform": "Weidian"
@@ -9696,7 +9696,7 @@ const PRODUCTS = [
   },
   {
     "name": "Rabbit B Walletchain 3",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "ACCESSORIES/BELTS",
     "link": "https://weidian.com/item.html?itemID=7725433696",
     "platform": "Weidian"
@@ -9717,7 +9717,7 @@ const PRODUCTS = [
   },
   {
     "name": "Rabbit B Walletchain 6",
-    "price": "€ 0.00",
+    "price": "€ 0",
     "category": "ACCESSORIES/BELTS",
     "link": "https://weidian.com/item.html?itemID=7725380474",
     "platform": "Weidian"
