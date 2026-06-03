@@ -5,10 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-catalog]').forEach((el) => {
     const count = parseInt(el.dataset.count || '10', 10);
     const offset = parseInt(el.dataset.offset || '0', 10);
+    const start = parseInt(el.dataset.start || '0', 10);
     let items;
     if (offset < 0) {
       items = PRODUCTS.slice(offset);
       if (count > 0) items = items.slice(0, count);
+    } else if (start > 0) {
+      items = PRODUCTS.slice(start, start + count);
     } else {
       items = PRODUCTS.slice(offset, offset + count);
     }

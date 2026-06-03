@@ -352,6 +352,13 @@ html, body {
   gap: 16px;
 }
 
+.trending-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
 .product-card {
   background: var(--surface-2);
   border: 1px solid var(--border);
@@ -825,35 +832,26 @@ html, body {
   .features-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .feature-card { padding: 16px 10px; }
 
-  /* Trending: scroll horizontal 1 ligne */
+  /* Trending: 2 lignes indépendantes scroll horizontal */
   .trending-section { padding: 28px 0 16px; }
-  .trending-cards {
+  .trending-section .trending-row,
+  .nouveautes-section .trending-row {
     display: flex;
     gap: 12px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
   }
-  .trending-cards::-webkit-scrollbar { display: none; }
-  .trending-cards .product-card {
+  .trending-section .trending-row::-webkit-scrollbar,
+  .nouveautes-section .trending-row::-webkit-scrollbar { display: none; }
+  .trending-row .product-card {
     flex-shrink: 0;
     width: 148px;
     scroll-snap-align: start;
   }
-  .trending-cards .product-img-wrap { aspect-ratio: auto; height: 168px; }
+  .trending-row .product-img-wrap { aspect-ratio: auto; height: 168px; }
 
-  /* Nouveautés mobile : scroll horizontal 1 ligne */
   .nouveautes-section { padding: 40px 0 16px; }
-  .nouveautes-grid {
-    display: flex;
-    gap: 12px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    padding-bottom: 6px;
-  }
-  .nouveautes-grid::-webkit-scrollbar { display: none; }
-  .nouveautes-grid .product-card { flex-shrink: 0; width: 148px; scroll-snap-align: start; }
-  .nouveautes-grid .product-img-wrap { aspect-ratio: auto; height: 168px; }
 
   /* FAQ mobile */
   .faq-section { padding: 40px 0 24px; }
