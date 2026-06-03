@@ -52,24 +52,36 @@
       <div class="dash-section">
         <div class="search-bar-wrap">
           <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          <input class="search-input" type="text" placeholder="Rechercher un vêtement, une marque…" autofocus />
-          <button class="upload-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></button>
+          <input class="search-input" type="text" id="searchInput" placeholder="Rechercher un vêtement, une marque…" autofocus />
         </div>
-        <button class="cta-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Rechercher maintenant</button>
+
+        <!-- FILTRES PLATEFORME -->
+        <div class="categories-scroll" id="platformFilter">
+          <button class="cat-pill active" data-platform="all">Tout</button>
+          <button class="cat-pill" data-platform="Weidian">Weidian</button>
+          <button class="cat-pill" data-platform="Taobao">Taobao</button>
+          <button class="cat-pill" data-platform="1688">1688</button>
+        </div>
+
+        <!-- RÉSULTATS -->
+        <div id="searchStats" style="font-size:13px;color:var(--text-muted);font-weight:500;display:none"></div>
       </div>
 
-      <!-- UPLOAD ZONE -->
-      <div class="dash-section">
-        <h2 class="dash-section-title">Ou upload une photo</h2>
-        <div class="upload-zone">
-          <div class="upload-zone-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
-          <p class="upload-zone-title">Glisse une photo ici</p>
-          <p class="upload-zone-sub">ou clique pour choisir depuis ton appareil</p>
-          <button class="upload-zone-btn"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>Choisir une photo</button>
-        </div>
+      <!-- GRILLE RÉSULTATS -->
+      <div class="search-results-grid" id="resultsGrid"></div>
+
+      <!-- ÉTAT VIDE -->
+      <div class="search-empty" id="searchEmpty" style="display:none">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <p>Aucun résultat pour cette recherche</p>
       </div>
 
-
+      <!-- ÉTAT INITIAL -->
+      <div class="search-initial" id="searchInitial">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <p>Tape un nom de produit ou de marque</p>
+        <span>1 623 références disponibles</span>
+      </div>
 
     </div>
   </div>
@@ -80,6 +92,9 @@
     <a href="favoris.html" class="nav-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><span>Favoris</span></a>
     <a href="profil.html" class="nav-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Profil</span></a>
   </nav>
+
+  <script src="../products.js"></script>
   <script src="dashboard.js"></script>
+  <script src="recherche.js"></script>
 </body>
 </html>

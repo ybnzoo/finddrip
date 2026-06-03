@@ -1007,3 +1007,127 @@ html, body {
   .profil-upgrade-btn { width: 100%; justify-content: center; }
   .new-badge-dash { font-size: 8px; padding: 3px 7px; }
 }
+
+/* ═══════════════════════
+   RECHERCHE — résultats
+═══════════════════════ */
+.search-results-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.result-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.result-card:hover {
+  background: var(--surface-2);
+  border-color: rgba(108,77,255,0.25);
+}
+
+.result-card-body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-width: 0;
+}
+
+.result-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.result-card-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-card-cat {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.result-card-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.result-card-price {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--purple-bright);
+}
+
+.result-card-platform {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  padding: 2px 7px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.result-card-arrow {
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: color 0.15s, transform 0.15s;
+}
+.result-card:hover .result-card-arrow {
+  color: var(--purple-bright);
+  transform: translate(2px, -2px);
+}
+
+/* États vide / initial */
+.search-empty,
+.search-initial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 60px 20px;
+  text-align: center;
+}
+.search-empty p,
+.search-initial p {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.2);
+}
+.search-initial span {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .result-card-body { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .result-card-meta { align-items: flex-start; flex-direction: row; gap: 8px; align-items: center; }
+}
