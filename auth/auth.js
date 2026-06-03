@@ -83,8 +83,17 @@ if (signupForm) {
       return;
     }
 
-    // Redirige vers le dashboard
-    window.location.href = '../dashboard/accueil.html';
+    // Si la session existe directement (email confirm désactivé)
+    if (data.session) {
+      window.location.href = '../dashboard/accueil.html';
+      return;
+    }
+
+    // Si confirmation email activée
+    showError('Vérifie ta boîte mail pour confirmer ton compte.');
+    btn.textContent = 'Créer mon compte';
+    btn.style.opacity = '1';
+    btn.disabled = false;
   });
 }
 
@@ -111,7 +120,14 @@ if (loginForm) {
       return;
     }
 
-    window.location.href = '../dashboard/accueil.html';
+    if (data.session) {
+      window.location.href = '../dashboard/accueil.html';
+    } else {
+      showError('Erreur de connexion. Réessaye.');
+      btn.textContent = 'Se connecter';
+      btn.style.opacity = '1';
+      btn.disabled = false;
+    }
   });
 }
 
