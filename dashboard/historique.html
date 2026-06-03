@@ -57,124 +57,18 @@
 
     <div class="dash-content">
 
-      <!-- HEADER + CLEAR -->
       <div class="dash-section-header">
         <div>
-          <p style="font-size:13px;color:var(--text-muted);font-weight:500;margin-top:4px">28 recherches effectuées</p>
+          <p id="histoCount" style="font-size:13px;color:var(--text-muted);font-weight:500;margin-top:4px"></p>
         </div>
-        <button class="histo-clear-btn">
+        <button class="histo-clear-btn" id="histoClearBtn">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>
           Effacer tout
         </button>
       </div>
 
-      <!-- AUJOURD'HUI -->
-      <div class="dash-section">
-        <div class="histo-group-label">Aujourd'hui</div>
-        <div class="dash-recent-list">
-          <div class="dash-recent-item">
-            <div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1611911813383-67769b37a149?w=100&q=80')"></div>
-            <div class="dash-recent-info">
-              <span class="dash-recent-name">North Face Nuptse 1996</span>
-              <span class="dash-recent-meta">Weidian · 4 liens · € 420 · il y a 2h</span>
-            </div>
-            <div class="histo-item-actions">
-              <button class="histo-fav-btn" title="Ajouter aux favoris"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-              <button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
-            </div>
-          </div>
-          <div class="dash-recent-item">
-            <div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=100&q=80')"></div>
-            <div class="dash-recent-info">
-              <span class="dash-recent-name">Supreme Box Logo Hoodie</span>
-              <span class="dash-recent-meta">Taobao · 7 liens · € 280 · il y a 5h</span>
-            </div>
-            <div class="histo-item-actions">
-              <button class="histo-fav-btn" title="Ajouter aux favoris"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-              <button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- HIER -->
-      <div class="dash-section">
-        <div class="histo-group-label">Hier</div>
-        <div class="dash-recent-list">
-          <div class="dash-recent-item">
-            <div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=100&q=80')"></div>
-            <div class="dash-recent-info">
-              <span class="dash-recent-name">Corteiz Cargo Pants</span>
-              <span class="dash-recent-meta">1688 · 3 liens · € 195 · hier 18:42</span>
-            </div>
-            <div class="histo-item-actions">
-              <button class="histo-fav-btn histo-fav-active" title="Retiré des favoris"><svg width="14" height="14" viewBox="0 0 24 24" fill="#6C4DFF" stroke="#6C4DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-              <button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
-            </div>
-          </div>
-          <div class="dash-recent-item">
-            <div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=100&q=80')"></div>
-            <div class="dash-recent-info">
-              <span class="dash-recent-name">Palace Tri-Ferg Hoodie</span>
-              <span class="dash-recent-meta">Weidian · 5 liens · € 310 · hier 14:10</span>
-            </div>
-            <div class="histo-item-actions">
-              <button class="histo-fav-btn" title="Ajouter aux favoris"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-              <button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
-            </div>
-          </div>
-          <div class="dash-recent-item">
-            <div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=100&q=80')"></div>
-            <div class="dash-recent-info">
-              <span class="dash-recent-name">Nike ACG Fleece</span>
-              <span class="dash-recent-meta">Weidian · 2 liens · € 210 · hier 09:55</span>
-            </div>
-            <div class="histo-item-actions">
-              <button class="histo-fav-btn" title="Ajouter aux favoris"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-              <button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CETTE SEMAINE -->
-      <div class="dash-section">
-        <div class="histo-group-label">Cette semaine</div>
-        <div class="dash-recent-list">
-          <div class="dash-recent-item">
-            <div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=100&q=80')"></div>
-            <div class="dash-recent-info">
-              <span class="dash-recent-name">Arc'teryx Beta Jacket</span>
-              <span class="dash-recent-meta">Taobao · 6 liens · € 680 · lun. 20:13</span>
-            </div>
-            <div class="histo-item-actions">
-              <button class="histo-fav-btn histo-fav-active" title="Retiré des favoris"><svg width="14" height="14" viewBox="0 0 24 24" fill="#6C4DFF" stroke="#6C4DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-              <button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
-            </div>
-          </div>
-          <div class="dash-recent-item">
-            <div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=100&q=80')"></div>
-            <div class="dash-recent-info">
-              <span class="dash-recent-name">Carhartt WIP Detroit Jacket</span>
-              <span class="dash-recent-meta">1688 · 4 liens · € 310 · dim. 11:30</span>
-            </div>
-            <div class="histo-item-actions">
-              <button class="histo-fav-btn" title="Ajouter aux favoris"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-              <button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
-            </div>
-          </div>
-          <div class="dash-recent-item">
-            <div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=100&q=80')"></div>
-            <div class="dash-recent-info">
-              <span class="dash-recent-name">Stüssy 8 Ball Fleece</span>
-              <span class="dash-recent-meta">Weidian · 3 liens · € 220 · sam. 16:05</span>
-            </div>
-            <div class="histo-item-actions">
-              <button class="histo-fav-btn histo-fav-active" title="Retiré des favoris"><svg width="14" height="14" viewBox="0 0 24 24" fill="#6C4DFF" stroke="#6C4DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
-              <button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
-            </div>
-          </div>
-        </div>
+      <div id="histoList" class="dash-section">
+        <p style="color:var(--text-muted);font-size:14px;text-align:center;padding:40px 0">Chargement...</p>
       </div>
 
     </div>
@@ -191,5 +85,63 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../auth/supabase-config.js"></script>
   <script src="../auth/guard.js"></script>
+  <script>
+    // Charger l'historique depuis Supabase
+    (async () => {
+      if (typeof sb === 'undefined') return;
+      const { data: { session } } = await sb.auth.getSession();
+      if (!session) return;
+
+      const { data: searches } = await sb.from('searches')
+        .select('*')
+        .eq('user_id', session.user.id)
+        .order('created_at', { ascending: false })
+        .limit(50);
+
+      const histoList = document.getElementById('histoList');
+      const histoCount = document.getElementById('histoCount');
+
+      if (!searches || searches.length === 0) {
+        histoList.innerHTML = '<p style="color:var(--text-muted);font-size:14px;text-align:center;padding:40px 0">Aucune recherche pour le moment. Fais ta première recherche !</p>';
+        histoCount.textContent = '0 recherche effectuée';
+        return;
+      }
+
+      histoCount.textContent = searches.length + ' recherche' + (searches.length > 1 ? 's' : '') + ' effectuée' + (searches.length > 1 ? 's' : '');
+
+      // Grouper par date
+      const groups = {};
+      const today = new Date().toDateString();
+      const yesterday = new Date(Date.now() - 86400000).toDateString();
+
+      searches.forEach(s => {
+        const d = new Date(s.created_at).toDateString();
+        let label;
+        if (d === today) label = "Aujourd'hui";
+        else if (d === yesterday) label = 'Hier';
+        else label = new Date(s.created_at).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
+        if (!groups[label]) groups[label] = [];
+        groups[label].push(s);
+      });
+
+      let html = '';
+      for (const [label, items] of Object.entries(groups)) {
+        html += '<div class="histo-group-label">' + label + '</div><div class="dash-recent-list">';
+        items.forEach(item => {
+          const time = new Date(item.created_at).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+          html += '<div class="dash-recent-item"><div class="dash-recent-info"><span class="dash-recent-name">' + item.query + '</span><span class="dash-recent-meta">' + time + '</span></div><a href="recherche.html?q=' + encodeURIComponent(item.query) + '" class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a></div>';
+        });
+        html += '</div>';
+      }
+      histoList.innerHTML = html;
+
+      // Clear button
+      document.getElementById('histoClearBtn').addEventListener('click', async () => {
+        await sb.from('searches').delete().eq('user_id', session.user.id);
+        histoList.innerHTML = '<p style="color:var(--text-muted);font-size:14px;text-align:center;padding:40px 0">Historique effacé.</p>';
+        histoCount.textContent = '0 recherche effectuée';
+      });
+    })();
+  </script>
 </body>
 </html>
