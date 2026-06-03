@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FindDrip — Accueil</title>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body class="dash-body">
+
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <a href="../index.html" class="sidebar-logo">
+        <span class="logo-find">Find</span><span class="logo-drip">Drip.</span>
+      </a>
+      <nav class="sidebar-nav">
+        <a href="accueil.html" class="sidebar-link active">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          Accueil
+        </a>
+        <a href="recherche.html" class="sidebar-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Rechercher
+        </a>
+        <a href="favoris.html" class="sidebar-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          Favoris
+        </a>
+        <a href="historique.html" class="sidebar-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Historique
+        </a>
+        <a href="tendances.html" class="sidebar-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          Tendances
+        </a>
+      </nav>
+    </div>
+    <div class="sidebar-bottom">
+      <div class="sidebar-plan">
+        <div class="sidebar-plan-info">
+          <span class="sidebar-plan-name">Plan Gratuit</span>
+          <span class="sidebar-plan-searches">2 / 3 recherches</span>
+          <div class="sidebar-plan-bar"><div class="sidebar-plan-fill" style="width:66%"></div></div>
+        </div>
+        <a href="../index.html#tarifs" class="sidebar-upgrade">Passer Premium</a>
+      </div>
+      <a href="profil.html" class="sidebar-link sidebar-link-profile">
+        <div class="sidebar-avatar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <div class="sidebar-profile-text">
+          <span class="sidebar-username">@drip_hunter</span>
+          <span class="sidebar-profile-label">Voir le profil</span>
+        </div>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </a>
+    </div>
+  </aside>
+
+  <div class="dash-main">
+    <header class="dash-topbar">
+      <h1 class="dash-page-title">Accueil</h1>
+      <div class="dash-topbar-right">
+        <div class="dash-search-mini">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" placeholder="Recherche rapide…" class="dash-search-input" />
+        </div>
+        <button class="dash-notif">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          <span class="dash-notif-dot"></span>
+        </button>
+        <a href="profil.html" class="dash-avatar-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </a>
+      </div>
+    </header>
+
+    <div class="dash-content">
+
+      <!-- STATS -->
+      <div class="dash-stats">
+        <div class="dash-stat-card">
+          <div class="dash-stat-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <div><div class="dash-stat-val">2 <span class="dash-stat-max">/ 3</span></div><div class="dash-stat-label">Recherches aujourd'hui</div></div>
+        </div>
+        <div class="dash-stat-card">
+          <div class="dash-stat-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <div><div class="dash-stat-val">6</div><div class="dash-stat-label">Favoris sauvegardés</div></div>
+        </div>
+        <div class="dash-stat-card">
+          <div class="dash-stat-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          </div>
+          <div><div class="dash-stat-val">14</div><div class="dash-stat-label">Liens ouverts</div></div>
+        </div>
+        <div class="dash-stat-card dash-stat-upgrade">
+          <div class="dash-stat-icon purple">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <div><div class="dash-stat-val purple-text">Premium</div><div class="dash-stat-label">Illimité · 7,99€ à vie</div></div>
+          <a href="../index.html#tarifs" class="dash-upgrade-btn">Voir</a>
+        </div>
+      </div>
+
+      <!-- SEARCH -->
+      <div class="dash-section">
+        <h2 class="dash-section-title">Nouvelle recherche</h2>
+        <div class="search-bar-wrap">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input class="search-input" type="text" placeholder="Rechercher un vêtement, une marque…" />
+          <button class="upload-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></button>
+        </div>
+        <button class="cta-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>Rechercher maintenant</button>
+      </div>
+
+      <!-- TWO COLS -->
+      <div class="dash-two-cols">
+        <div class="dash-section">
+          <h2 class="dash-section-title">Recherches récentes</h2>
+          <div class="dash-recent-list">
+            <div class="dash-recent-item"><div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=100&q=80')"></div><div class="dash-recent-info"><span class="dash-recent-name">Nike Air Force 1 Low</span><span class="dash-recent-meta">Weidian · 4 liens · € 185</span></div><button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button></div>
+            <div class="dash-recent-item"><div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=100&q=80')"></div><div class="dash-recent-info"><span class="dash-recent-name">Adidas Samba OG</span><span class="dash-recent-meta">Taobao · 6 liens · € 210</span></div><button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button></div>
+            <div class="dash-recent-item"><div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=100&q=80')"></div><div class="dash-recent-info"><span class="dash-recent-name">Nike Dunk Low Panda</span><span class="dash-recent-meta">1688 · 5 liens · € 220</span></div><button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button></div>
+            <div class="dash-recent-item"><div class="dash-recent-img" style="background-image:url('https://images.unsplash.com/photo-1556906781-9a414e2a9c86?w=100&q=80')"></div><div class="dash-recent-info"><span class="dash-recent-name">Nike Jordan 1 Retro High</span><span class="dash-recent-meta">Weidian · 3 liens · € 310</span></div><button class="dash-recent-open"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button></div>
+          </div>
+        </div>
+        <div class="dash-section">
+          <h2 class="dash-section-title">Mes favoris</h2>
+          <div class="dash-fav-grid">
+            <div class="dash-fav-card"><div class="dash-fav-img" style="background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&q=80')"></div><div class="dash-fav-info"><span class="dash-fav-name">Air Force 1</span><span class="dash-fav-price">€ 185</span></div></div>
+            <div class="dash-fav-card"><div class="dash-fav-img" style="background-image:url('https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=300&q=80')"></div><div class="dash-fav-info"><span class="dash-fav-name">Adidas Samba</span><span class="dash-fav-price">€ 210</span></div></div>
+            <div class="dash-fav-card"><div class="dash-fav-img" style="background-image:url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=300&q=80')"></div><div class="dash-fav-info"><span class="dash-fav-name">Dunk Low Panda</span><span class="dash-fav-price">€ 220</span></div></div>
+            <div class="dash-fav-card"><div class="dash-fav-img" style="background-image:url('https://images.unsplash.com/photo-1556906781-9a414e2a9c86?w=300&q=80')"></div><div class="dash-fav-info"><span class="dash-fav-name">Jordan 1 High OG</span><span class="dash-fav-price">€ 310</span></div></div>
+            <div class="dash-fav-card"><div class="dash-fav-img" style="background-image:url('https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=300&q=80')"></div><div class="dash-fav-info"><span class="dash-fav-name">Yeezy 350 V2 Bone</span><span class="dash-fav-price">€ 280</span></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TRENDING -->
+      <div class="dash-section">
+        <div class="dash-section-header">
+          <h2 class="dash-section-title">Tendances du moment</h2>
+          <a href="tendances.html" class="see-all">Voir tout →</a>
+        </div>
+        <div class="trending-cards">
+          <div class="product-card"><div class="product-img-wrap"><div class="rank-badge rank-1">TOP 1</div><div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80')"></div><button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button></div><div class="product-info"><span class="product-name">Nike Air Force 1 Low White</span><span class="product-price">€ 185</span></div></div>
+          <div class="product-card"><div class="product-img-wrap"><div class="rank-badge rank-2">TOP 2</div><div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&q=80')"></div><button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button></div><div class="product-info"><span class="product-name">Adidas Samba OG White Gum</span><span class="product-price">€ 210</span></div></div>
+          <div class="product-card"><div class="product-img-wrap"><div class="rank-badge rank-3">TOP 3</div><div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&q=80')"></div><button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button></div><div class="product-info"><span class="product-name">Nike Dunk Low Panda</span><span class="product-price">€ 220</span></div></div>
+          <div class="product-card"><div class="product-img-wrap"><div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 4</div><div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1556906781-9a414e2a9c86?w=400&q=80')"></div><button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button></div><div class="product-info"><span class="product-name">Nike Jordan 1 Retro High OG</span><span class="product-price">€ 310</span></div></div>
+          <div class="product-card"><div class="product-img-wrap"><div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 5</div><div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400&q=80')"></div><button class="fav-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button></div><div class="product-info"><span class="product-name">Adidas Yeezy 350 V2 Bone</span><span class="product-price">€ 280</span></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <nav class="bottom-nav">
+    <a href="accueil.html" class="nav-item active"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg><span>Accueil</span></a>
+    <a href="recherche.html" class="nav-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Rechercher</span></a>
+    <a href="favoris.html" class="nav-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><span>Favoris</span></a>
+    <a href="profil.html" class="nav-item"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Profil</span></a>
+  </nav>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

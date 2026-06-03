@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>FindDrip — Trouve n'importe quel vêtement</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+        <!-- HEADER -->
+        <header class="header">
+          <div class="header-pill">
+            <a href="index.html" class="logo">
+              <span class="logo-find">Find</span><span class="logo-drip">Drip.</span>
+            </a>
+            <nav class="header-nav">
+              <a href="index.html" class="header-link active">Accueil</a>
+              <a href="#tarifs" class="header-link">Tarifs</a>
+              <a href="#faq" class="header-link">FAQ</a>
+            </nav>
+            <div class="header-actions">
+              <a href="#" class="header-login">Connexion</a>
+              <a href="#" class="header-cta">S'inscrire gratuitement</a>
+            </div>
+            <button class="menu-btn" aria-label="Menu" id="menuBtn">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </header>
+
+        <!-- MENU MOBILE -->
+        <div class="mobile-menu" id="mobileMenu">
+          <nav class="mobile-menu-nav">
+            <a href="index.html" class="mobile-menu-link active">Accueil</a>
+            <a href="#tarifs" class="mobile-menu-link">Tarifs</a>
+            <a href="#faq" class="mobile-menu-link">FAQ</a>
+          </nav>
+          <div class="mobile-menu-actions">
+            <a href="#" class="mobile-menu-login">Connexion</a>
+            <a href="#" class="mobile-menu-cta">S'inscrire gratuitement</a>
+          </div>
+        </div>
+
+        <!-- SCROLL CONTENT -->
+        <main class="scroll-area">
+
+          <!-- HERO -->
+          <section class="hero">
+            <h1 class="hero-title">
+              Trouve des vêtement<br>en <span class="purple-text">2 secondes.</span>
+            </h1>
+            <p class="hero-sub">
+              Upload une photo ou recherche une marque, et accède instantanément aux meilleurs liens référencés.
+            </p>
+          </section>
+
+          <!-- SEARCH AREA -->
+          <section class="search-section">
+            <div class="search-bar-wrap">
+              <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input class="search-input" type="text" placeholder="Rechercher un vêtement, une marque…" aria-label="Rechercher" />
+              <input type="file" id="photoInput" accept="image/*" style="display:none" />
+              <button class="upload-btn" aria-label="Upload photo" id="uploadBtn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </button>
+            </div>
+            <button class="cta-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              Rechercher maintenant
+            </button>
+          </section>
+
+
+
+          <!-- TRENDING -->
+          <section class="trending-section">
+            <div class="trending-header">
+              <h2 class="section-title">Tendances</h2>
+              <a href="#" class="see-all">Voir tout →</a>
+            </div>
+            <div class="trending-cards">
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge rank-1">TOP 1</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike Air Force 1 Low White</span><span class="product-price">€ 185</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge rank-2">TOP 2</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Adidas Samba OG White Gum</span><span class="product-price">€ 210</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge rank-3">TOP 3</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike Dunk Low Panda</span><span class="product-price">€ 220</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 4</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1556906781-9a414e2a9c86?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike Jordan 1 Retro High OG</span><span class="product-price">€ 310</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 5</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Adidas Yeezy 350 V2 Bone</span><span class="product-price">€ 280</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 6</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike Air Max 90 Essential</span><span class="product-price">€ 195</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 7</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1603808033192-082d6919d3e1?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Adidas Ultraboost 22</span><span class="product-price">€ 260</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 8</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1552346154-21d32810aba3?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike Cortez Classic OG</span><span class="product-price">€ 170</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 9</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Adidas Forum Low White</span><span class="product-price">€ 190</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="rank-badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.08)">TOP 10</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1584735175315-9d5df23be620?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike Blazer Mid 77 Vintage</span><span class="product-price">€ 175</span></div>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- NOUVEAUTÉS -->
+          <section class="nouveautes-section">
+            <div class="trending-header">
+              <h2 class="section-title">Nouveautés</h2>
+              <a href="#" class="see-all">Voir tout →</a>
+            </div>
+            <div class="nouveautes-grid">
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Louis Vuitton Monogram Hoodie</span><span class="product-price">€ 520</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1611911813383-67769b37a149?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike Tech Fleece Full-Zip</span><span class="product-price">€ 245</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Adidas Originals Trefoil Tee</span><span class="product-price">€ 95</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike ACG Storm-FIT Jacket</span><span class="product-price">€ 380</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Louis Vuitton Damier Shirt</span><span class="product-price">€ 460</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Adidas Campus 00s Beige</span><span class="product-price">€ 200</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike x Off-White Blazer</span><span class="product-price">€ 420</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">LV Archlight 2.0 Sneaker</span><span class="product-price">€ 680</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Nike SB Dunk Low Pro</span><span class="product-price">€ 230</span></div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img-wrap">
+                  <div class="new-badge">NEW</div>
+                  <div class="product-img" style="background-image:url('https://images.unsplash.com/photo-1556906781-9a414e2a9c86?w=400&q=80')"></div>
+                  <button class="fav-btn" aria-label="Favori"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></button>
+                </div>
+                <div class="product-info"><span class="product-name">Adidas NMD R1 Triple Black</span><span class="product-price">€ 240</span></div>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- PRICING -->
+          <section class="pricing-section" id="tarifs">
+            <div class="pricing-header">
+              <h2 class="pricing-title">Choisis le plan<br><span class="purple-text">qui te correspond.</span></h2>
+              <p class="pricing-sub">Plus de recherches, plus de précision, plus de résultats.</p>
+            </div>
+            <div class="pricing-grid">
+
+              <!-- GRATUIT -->
+              <div class="pricing-card">
+                <div class="plan-name">Gratuit</div>
+                <div class="plan-desc">Idéal pour découvrir FindDrip.</div>
+                <div class="plan-price">0€ <span class="plan-period">/ mois</span></div>
+                <button class="plan-btn-free">Plan actuel</button>
+                <ul class="plan-features">
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    3 recherches par jour
+                  </li>
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Accès aux liens de base
+                  </li>
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Résultats standard
+                  </li>
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Accès communauté
+                  </li>
+                  <li class="feat-off">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#222"/><line x1="8" y1="8" x2="16" y2="16" stroke="#555" stroke-width="2" stroke-linecap="round"/><line x1="16" y1="8" x2="8" y2="16" stroke="#555" stroke-width="2" stroke-linecap="round"/></svg>
+                    Recherches illimitées
+                  </li>
+                  <li class="feat-off">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#222"/><line x1="8" y1="8" x2="16" y2="16" stroke="#555" stroke-width="2" stroke-linecap="round"/><line x1="16" y1="8" x2="8" y2="16" stroke="#555" stroke-width="2" stroke-linecap="round"/></svg>
+                    Résultats haute qualité (HD)
+                  </li>
+                </ul>
+              </div>
+
+              <!-- PREMIUM -->
+              <div class="pricing-card pricing-card-premium">
+                <div class="plan-popular">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                  LE PLUS POPULAIRE
+                </div>
+                <div class="plan-name purple-text">Premium</div>
+                <div class="plan-desc">Pour les vrais passionnés.</div>
+                <div class="plan-price purple-text">7,99€ <span class="plan-period">/ à vie</span></div>
+                <button class="plan-btn-premium">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                  Choisir Premium
+                </button>
+                <ul class="plan-features">
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Recherches illimitées
+                  </li>
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Accès à tous les liens
+                  </li>
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Résultats haute qualité (HD)
+                  </li>
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Accès prioritaire aux nouveaux liens
+                  </li>
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Filtres avancés
+                  </li>
+                  <li class="feat-on">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#6C4DFF"/><polyline points="8 12 11 15 16 9" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Support prioritaire
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- FAQ -->
+          <section class="faq-section" id="faq">
+            <div class="faq-header">
+              <h2 class="faq-title">Questions fréquentes</h2>
+              <p class="faq-sub">Tout ce que tu dois savoir sur FindDrip.</p>
+            </div>
+            <div class="faq-list">
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text">C'est quoi FindDrip exactement ?</span>
+                  <div class="faq-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  </div>
+                </div>
+                <div class="faq-answer">FindDrip est un moteur de recherche spécialisé pour trouver des vêtements sur les plateformes asiatiques comme Weidian, Taobao et 1688. Tu upload une photo ou tu tapes un nom, et on te sort instantanément les meilleurs liens référencés avec QC communautaire.</div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text">C'est gratuit ?</span>
+                  <div class="faq-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  </div>
+                </div>
+                <div class="faq-answer">Oui, le plan gratuit te donne accès à 3 recherches par jour. Pour des recherches illimitées, l'accès aux QC avancés et aux alertes de nouveautés, passe au plan Premium.</div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text">Comment fonctionne la recherche par photo ?</span>
+                  <div class="faq-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  </div>
+                </div>
+                <div class="faq-answer">Tu upload n'importe quelle photo d'un vêtement — screenshot Instagram, TikTok, ou photo IRL. Notre IA analyse la pièce et la fait correspondre aux références disponibles sur Weidian, Taobao et 1688 en quelques secondes.</div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text">Les liens sont-ils vérifiés ?</span>
+                  <div class="faq-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  </div>
+                </div>
+                <div class="faq-answer">Tous les liens sont vérifiés et notés par la communauté. On affiche le meilleur batch disponible avec les QC photos associés pour que tu puisses commander en confiance.</div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text">Sur quelles plateformes ça marche ?</span>
+                  <div class="faq-icon">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  </div>
+                </div>
+                <div class="faq-answer">FindDrip référence des liens sur Weidian, Taobao et 1688. On couvre plus de 250 000 références et on met à jour la base en continu.</div>
+              </div>
+
+            </div>
+          </section>
+
+          <div class="bottom-spacer"></div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+          <div class="footer-inner">
+            <div class="footer-brand">
+              <a href="index.html" class="logo">
+                <span class="logo-find">Find</span><span class="logo-drip">Drip.</span>
+              </a>
+              <p class="footer-desc">FindDrip est un moteur de recherche indépendant. Nous ne vendons aucun produit. Nous référençons et redirigeons uniquement vers des liens tiers. L'abonnement Premium donne accès à des recherches illimitées et à des fonctionnalités avancées.</p>
+              <p class="footer-copy">© 2025 FindDrip. Tous droits réservés.</p>
+            </div>
+            <div class="footer-col">
+              <h4>Produit</h4>
+              <a href="dashboard/accueil.html">Dashboard</a>
+              <a href="#tarifs">Tarifs</a>
+              <a href="#">Nouveautés</a>
+              <a href="#">Tendances</a>
+            </div>
+            <div class="footer-col">
+              <h4>Communauté</h4>
+              <a href="#">Discord</a>
+              <a href="#">QC & Avis</a>
+              <a href="#">Soumettre un lien</a>
+              <a href="#">Hall of Fame</a>
+            </div>
+            <div class="footer-col">
+              <h4>Légal</h4>
+              <a href="#">Mentions légales</a>
+              <a href="#">Confidentialité</a>
+              <a href="#">CGU</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+
+          <!-- DISCLAIMER -->
+          <div class="footer-disclaimer">
+            <p>
+              <strong>Avis important :</strong> FindDrip est un service de recherche et d'indexation de liens. Nous ne sommes pas vendeurs, nous ne gérons aucune transaction et nous ne sommes affiliés à aucune des marques mentionnées (Nike, Adidas, Louis Vuitton, etc.). Les liens référencés pointent vers des boutiques tierces indépendantes. FindDrip ne peut être tenu responsable de la qualité, de la conformité ou de la légalité des produits proposés par ces tiers. L'abonnement Premium que nous commercialisons concerne exclusivement l'accès à notre plateforme de recherche (recherches illimitées, résultats avancés, accès prioritaire). Aucun produit physique n'est vendu par FindDrip.
+            </p>
+          </div>
+        </footer>
+
+        <!-- BOTTOM NAV -->
+        <nav class="bottom-nav">
+          <a href="index.html" class="nav-item active" aria-label="Accueil">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            <span>Accueil</span>
+          </a>
+          <a href="pages/recherche.html" class="nav-item" aria-label="Rechercher">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <span>Rechercher</span>
+          </a>
+          <a href="pages/favoris.html" class="nav-item" aria-label="Favoris">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            <span>Favoris</span>
+          </a>
+          <a href="pages/profil.html" class="nav-item" aria-label="Profil">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <span>Profil</span>
+          </a>
+        </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
