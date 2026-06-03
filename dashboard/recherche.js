@@ -59,6 +59,15 @@ function doSearch(query) {
   searchStats.style.display = 'block';
   searchStats.textContent = filtered.length + ' résultat' + (filtered.length > 1 ? 's' : '') + ' pour "' + query + '"';
 
+  // Sauvegarder la recherche dans Supabase
+  if (typeof supabase !== 'undefined') {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session) {
+        supabase.from('searches').insert({ user_id: session.user.id, query: query }).then(() => {});
+      }
+    });
+  }
+
   const toShow = filtered.slice(0, 40);
 
   resultsGrid.innerHTML = toShow.map(p => `
@@ -84,6 +93,47 @@ function doSearch(query) {
     testImg.onerror = () => { el.style.backgroundImage = "url('" + FALLBACK_IMG + "')"; };
     const match = el.style.backgroundImage.match(/url\(['"]?(.*?)['"]?\)/);
     if (match) testImg.src = match[1];
+  });
+
+  // Fav button — save to Supabase
+  resultsGrid.querySelectorAll('.fav-btn').forEach((btn, i) => {
+    btn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const svg = btn.querySelector('svg');
+      const active = svg.style.fill === 'rgb(108, 77, 255)';
+      svg.style.fill = active ? 'none' : '#6C4DFF';
+      svg.style.stroke = active ? 'rgba(255,255,255,0.7)' : '#6C4DFF';
+      btn.style.background = active ? 'rgba(0,0,0,0.6)' : 'rgba(108,77,255,0.25)';
+      if (!active) {
+        btn.style.transform = 'scale(1.2)';
+        setTimeout(() => { btn.style.transform = 'scale(1)'; }, 150);
+        // Save to Supabase
+        if (typeof supabase !== 'undefined' && toShow[i]) {
+          const p = toShow[i];
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session) {
+            await supabase.from('favorites').upsert({
+              user_id: session.user.id,
+              product_name: p.name,
+              product_price: p.price,
+              product_link: p.link,
+              product_img: getImg(p),
+              platform: p.platform
+            }, { onConflict: 'user_id,product_link' });
+          }
+        }
+      } else {
+        // Remove from Supabase
+        if (typeof supabase !== 'undefined' && toShow[i]) {
+          const p = toShow[i];
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session) {
+            await supabase.from('favorites').delete().match({ user_id: session.user.id, product_link: p.link });
+          }
+        }
+      }
+    });
   });
 }
 
