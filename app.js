@@ -30,12 +30,50 @@ document.querySelectorAll('.fav-btn').forEach(btn => {
   });
 });
 
-// CTA button
+// ── AUTH POPUP ──
+const authPopup = document.getElementById('authPopup');
+const authPopupClose = document.getElementById('authPopupClose');
+
+function showAuthPopup() {
+  if (authPopup) {
+    authPopup.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function hideAuthPopup() {
+  if (authPopup) {
+    authPopup.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+}
+
+if (authPopupClose) {
+  authPopupClose.addEventListener('click', hideAuthPopup);
+}
+if (authPopup) {
+  authPopup.addEventListener('click', (e) => {
+    if (e.target === authPopup) hideAuthPopup();
+  });
+}
+
+// Intercepte bottom nav links (recherche, favoris, profil)
+document.querySelectorAll('.bottom-nav .nav-item').forEach(link => {
+  const href = link.getAttribute('href');
+  if (href && href !== 'index.html' && !href.startsWith('#')) {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      showAuthPopup();
+    });
+  }
+});
+
+// Intercepte le bouton "Rechercher maintenant"
 const ctaBtn = document.querySelector('.cta-btn');
 if (ctaBtn) {
-  ctaBtn.addEventListener('click', function() {
-    this.style.transform = 'scale(0.97)';
-    setTimeout(() => { this.style.transform = ''; }, 120);
+  ctaBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    showAuthPopup();
   });
 }
 
