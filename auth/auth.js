@@ -24,11 +24,11 @@ if (passwordInput && strengthFill) {
     if (/[^A-Za-z0-9]/.test(val)) score++;
 
     const levels = [
-      { width: '0%',   color: 'transparent',  label: '' },
-      { width: '25%',  color: '#ff4d4d',       label: 'Trop faible' },
-      { width: '50%',  color: '#ff9500',       label: 'Moyen' },
-      { width: '75%',  color: '#34c759',       label: 'Bon' },
-      { width: '100%', color: '#6C4DFF',       label: 'Excellent' },
+      { width: '0%', color: 'transparent', label: '' },
+      { width: '25%', color: '#ff4d4d', label: 'Trop faible' },
+      { width: '50%', color: '#ff9500', label: 'Moyen' },
+      { width: '75%', color: '#34c759', label: 'Bon' },
+      { width: '100%', color: '#6C4DFF', label: 'Excellent' },
     ];
 
     const level = val.length === 0 ? levels[0] : levels[score] || levels[1];
@@ -41,31 +41,104 @@ if (passwordInput && strengthFill) {
   });
 }
 
-// ── SOUMISSION CONNEXION ──
-const loginForm = document.getElementById('loginForm');
-if (loginForm) {
-  loginForm.addEventListener('submit', (e) => {
+// ── ERROR DISPLAY ──
+function showError(msg) {
+  let errEl = document.querySelector('.auth-error');
+  if (!errEl) {
+    errEl = document.createElement('div');
+    errEl.className = 'auth-error';
+    const form = document.querySelector('.auth-form');
+    if (form) form.prepend(errEl);
+  }
+  errEl.textContent = msg;
+  errEl.style.display = 'block';
+  setTimeout(() => { errEl.style.display = 'none'; }, 5000);
+}
+
+// ── INSCRIPTION ──
+const signupForm = document.getElementById('signupForm');
+if (signupForm) {
+  signupForm.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const btn = loginForm.querySelector('.auth-btn');
-    btn.textContent = 'Connexion…';
+    const btn = signupForm.querySelector('.auth-btn');
+    const email = signupForm.querySelector('input[type="email"]').value;
+    const password = signupForm.querySelector('input[type="password"]').value;
+
+    if (password.length < 6) {
+      showError('Le mot de passe doit faire au moins 6 caractères.');
+      return;
+    }
+
+    btn.textContent = 'Création du compte…';
     btn.style.opacity = '0.7';
-    // Simule une redirection
-    setTimeout(() => {
-      window.location.href = '../dashboard/accueil.html';
-    }, 800);
+    btn.disabled = true;
+
+    const { data, error } = await supabase.auth.signUp({ email, password });
+
+    if (error) {
+      showError(error.message === 'User already registered' ? 'Un compte existe déjà avec cet email.' : error.message);
+      btn.textContent = 'Créer mon compte';
+      btn.style.opacity = '1';
+      btn.disabled = false;
+      return;
+    }
+
+    // Redirige vers le dashboard
+    window.location.href = '../dashboard/accueil.html';
   });
 }
 
-// ── SOUMISSION INSCRIPTION ──
-const signupForm = document.getElementById('signupForm');
-if (signupForm) {
-  signupForm.addEventListener('submit', (e) => {
+// ── CONNEXION ──
+const loginForm = document.getElementById('loginForm');
+if (loginForm) {
+  loginForm.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const btn = signupForm.querySelector('.auth-btn');
-    btn.textContent = 'Création du compte…';
+    const btn = loginForm.querySelector('.auth-btn');
+    const email = loginForm.querySelector('input[type="email"]').value;
+    const password = loginForm.querySelector('input[type="password"]').value;
+
+    btn.textContent = 'Connexion…';
     btn.style.opacity = '0.7';
-    setTimeout(() => {
-      window.location.href = '../dashboard/accueil.html';
-    }, 800);
+    btn.disabled = true;
+
+    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+
+    if (error) {
+      showError(error.message === 'Invalid login credentials' ? 'Email ou mot de passe incorrect.' : error.message);
+      btn.textContent = 'Se connecter';
+      btn.style.opacity = '1';
+      btn.disabled = false;
+      return;
+    }
+
+    window.location.href = '../dashboard/accueil.html';
   });
 }
+
+// ── GOOGLE LOGIN ──
+document.querySelectorAll('.auth-social-btn:not(.auth-discord-btn)').forEach(btn => {
+  btn.addEventListener('click', async () => {
+    await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: { redirectTo: window.location.origin + '/dashboard/accueil.html' }
+    });
+  });
+});
+
+// ── DISCORD LOGIN ──
+document.querySelectorAll('.auth-discord-btn').forEach(btn => {
+  btn.addEventListener('click', async () => {
+    await supabase.auth.signInWithOAuth({
+      provider: 'discord',
+      options: { redirectTo: window.location.origin + '/dashboard/accueil.html' }
+    });
+  });
+});
+
+// ── SI DÉJÀ CONNECTÉ → REDIRECT ──
+(async () => {
+  const { data: { session } } = await supabase.auth.getSession();
+  if (session) {
+    window.location.href = '../dashboard/accueil.html';
+  }
+})();
