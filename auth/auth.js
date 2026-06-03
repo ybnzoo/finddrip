@@ -76,12 +76,15 @@ if (signupForm) {
     const { data, error } = await supabase.auth.signUp({ email, password });
 
     if (error) {
+      console.error('Signup error:', error);
       showError(error.message === 'User already registered' ? 'Un compte existe déjà avec cet email.' : error.message);
       btn.textContent = 'Créer mon compte';
       btn.style.opacity = '1';
       btn.disabled = false;
       return;
     }
+
+    console.log('Signup data:', data);
 
     // Si la session existe directement (email confirm désactivé)
     if (data.session) {
@@ -90,10 +93,13 @@ if (signupForm) {
     }
 
     // Si confirmation email activée
-    showError('Vérifie ta boîte mail pour confirmer ton compte.');
-    btn.textContent = 'Créer mon compte';
-    btn.style.opacity = '1';
-    btn.disabled = false;
+    if (data.user && !data.session) {
+      showError('Vérifie ta boîte mail pour confirmer ton compte, ou désactive la confirmation email dans Supabase.');
+      btn.textContent = 'Créer mon compte';
+      btn.style.opacity = '1';
+      btn.disabled = false;
+      return;
+    }
   });
 }
 
